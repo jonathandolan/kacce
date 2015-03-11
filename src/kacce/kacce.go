@@ -1,6 +1,7 @@
 package main
 
 import (
+	"elo"
 	"fmt"
 	"github.com/malbrecht/chess"
 	"github.com/malbrecht/chess/engine/uci"
@@ -8,16 +9,7 @@ import (
 	"os"
 )
 
-func main() {
-	board, _ := chess.ParseFen("")
-	board.PrintBoard()
-	m := chess.Move{chess.E2, chess.E4, 0}
-	board = board.MakeMove(m)
-	var log *log.Logger
-
-	eng1, _ := uci.Run("stockfish", nil, log)
-	eng2, _ := uci.Run("stockfish", nil, log)
-
+func playGame(eng1, eng2 *uci.Engine, board *chess.Board) {
 	//setup new positions
 	eng1.SetPosition(board)
 	eng2.SetPosition(board)
@@ -57,4 +49,15 @@ func main() {
 		eng2.SetPosition(board)
 		board.PrintBoard()
 	}
+}
+
+func main() {
+	board, _ := chess.ParseFen("")
+	board.PrintBoard()
+	var log *log.Logger
+
+	eng1, _ := uci.Run("stockfish", nil, log)
+	//eng2, _ := uci.Run("stockfish", nil, log)
+
+	fmt.Println(elo.EstimateElo(eng1, 20))
 }

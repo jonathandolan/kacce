@@ -167,11 +167,5 @@ func Evaluate(b *chess.Board) int {
 	score = material + tableScore
 	//fmt.Println("score: ", score)
 
-	//return positive from perspective of player
-	//	if b.SideToMove == chess.White {
-	//		return score
-	//	} else {
-	//		return -score
-	//	}
 	return score
 }

@@ -7,7 +7,7 @@ import (
 	//"fmt"
 )
 
-func EstimateElo(eng ai.KacceAI, depth int) int {
+func EstimateElo(eng ai.Engine, depth int) int {
 	eloRatings := []int{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
 
 	board, _ := chess.ParseFen("r1b3k1/6p1/P1n1pr1p/q1p5/1b1P4/2N2N2/PP1QBPPP/R3K2R b - - 0 1")

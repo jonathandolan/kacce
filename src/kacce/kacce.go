@@ -11,7 +11,7 @@ import (
 	"os"
 )
 
-func playGame(eng1 *uci.Engine, eng2 ai.KacceAI, board *chess.Board) {
+func playGame(eng1 *uci.Engine, eng2 *uci.Engine, board *chess.Board) {
 	//setup new positions
 	eng1.SetPosition(board)
 	eng2.SetPosition(board)
@@ -59,10 +59,10 @@ func main() {
 	board, _ := chess.ParseFen("")
 	board.PrintBoard()
 
-	//	var log *log.Logger
-	//	eng1, _ := uci.Run("stockfish", nil, log)
-	eng2 := ai.KacceAI{}
-	//	playGame(eng1, eng2, board)
+	//var log *log.Logger
+	//eng1, _ := uci.Run("stockfish", nil, log)
+	eng2 := ai.Engine{}
+	//playGame(eng1, eng2, board)
 
 	fmt.Println(elo.EstimateElo(eng2, 5))
 }

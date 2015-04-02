@@ -18,24 +18,23 @@ func (k *Engine) SetPosition(board *chess.Board) {
 
 //only search implimented
 //starts recursive function minimax
-func (k *Engine) SearchDepth(depth int) <-chan engine.Info {
+func (k *Engine) SearchDepth(depth int, e eval.Eval) <-chan engine.Info {
 	//result channel
 	infoChan := make(chan engine.Info, 1)
 	//local info struct
 	info := Info{}
-	_, tempMove := minimaxAB(depth, k.board, k.board.SideToMove, -9223372036854775808, 9223372036854775807)
+	_, tempMove := minimaxAB(depth, k.board, e, -9223372036854775808, 9223372036854775807)
 	info.chosenMove = tempMove
-	fmt.Println(info.BestMove())
 	infoChan <- info
 	close(infoChan)
 	return infoChan
 }
 
 //minimax search algorithm
-func minimax(depth int, board *chess.Board, mySide int) (score int, move chess.Move) {
+func minimax(depth int, board *chess.Board) (score int, move chess.Move) {
 	_, mate := board.IsCheckOrMate()
 	if depth == 0 || mate == true {
-		return eval.Evaluate(board), chess.NullMove
+		return eval.EvaluateBasic(board), chess.NullMove
 	} else {
 		if depth%2 == 0 { //max
 			bestMaxScore := -9223372036854775808
@@ -43,7 +42,7 @@ func minimax(depth int, board *chess.Board, mySide int) (score int, move chess.M
 			for _, m := range board.LegalMoves() {
 				boardCopy := board.CopyBoard()
 				boardCopy = boardCopy.MakeMove(m)
-				tempScore, _ := minimax(depth-1, boardCopy, mySide)
+				tempScore, _ := minimax(depth-1, boardCopy)
 				if tempScore > bestMaxScore {
 					bestMaxScore = tempScore
 					bestMaxMove = m
@@ -57,7 +56,7 @@ func minimax(depth int, board *chess.Board, mySide int) (score int, move chess.M
 			for _, m := range board.LegalMoves() {
 				boardCopy := board.CopyBoard()
 				boardCopy = boardCopy.MakeMove(m)
-				tempScore, _ := minimax(depth-1, boardCopy, mySide)
+				tempScore, _ := minimax(depth-1, boardCopy)
 				if tempScore < bestMinScore {
 					bestMinScore = tempScore
 					bestMinMove = m
@@ -69,17 +68,17 @@ func minimax(depth int, board *chess.Board, mySide int) (score int, move chess.M
 }
 
 //minimax search algorithm with alpha, beta pruning
-func minimaxAB(depth int, board *chess.Board, mySide int, alpha int, beta int) (score int, move chess.Move) {
+func minimaxAB(depth int, board *chess.Board, eval eval.Eval, alpha int, beta int) (score int, move chess.Move) {
 	_, mate := board.IsCheckOrMate()
 	if depth == 0 || mate == true {
-		return eval.Evaluate(board), chess.NullMove
+		return eval(board), chess.NullMove
 	} else {
 		if depth%2 == 0 { //max
 			bestMaxMove := chess.Move{}
 			for _, m := range board.LegalMoves() {
 				boardCopy := board.CopyBoard()
 				boardCopy = boardCopy.MakeMove(m)
-				tempScore, _ := minimaxAB(depth-1, boardCopy, mySide, alpha, beta)
+				tempScore, _ := minimaxAB(depth-1, boardCopy, eval, alpha, beta)
 				if tempScore > alpha {
 					alpha = tempScore
 					bestMaxMove = m
@@ -95,7 +94,7 @@ func minimaxAB(depth int, board *chess.Board, mySide int, alpha int, beta int) (
 			for _, m := range board.LegalMoves() {
 				boardCopy := board.CopyBoard()
 				boardCopy = boardCopy.MakeMove(m)
-				tempScore, _ := minimaxAB(depth-1, boardCopy, mySide, alpha, beta)
+				tempScore, _ := minimaxAB(depth-1, boardCopy, eval, alpha, beta)
 				if tempScore < beta {
 					beta = tempScore
 					bestMinMove = m

@@ -4,16 +4,17 @@ import (
 	"github.com/malbrecht/chess"
 	//"github.com/malbrecht/chess/engine/uci"
 	"ai"
-	//"fmt"
+	"eval"
+	"fmt"
 )
 
-func EstimateElo(eng ai.Engine, depth int) int {
+func EstimateElo(eng ai.Engine, depth int, e eval.Eval) int {
 	eloRatings := []int{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
 
 	board, _ := chess.ParseFen("r1b3k1/6p1/P1n1pr1p/q1p5/1b1P4/2N2N2/PP1QBPPP/R3K2R b - - 0 1")
 	eng.SetPosition(board)
 	board.PrintBoard()
-	for i := range eng.SearchDepth(depth) {
+	for i := range eng.SearchDepth(depth, e) {
 		if m, ok := i.BestMove(); ok {
 			//estimate rating of m
 			if m.From == chess.F6 && m.To == chess.F3 {
@@ -41,7 +42,7 @@ func EstimateElo(eng ai.Engine, depth int) int {
 	board, _ = chess.ParseFen("2nq1nk1/5p1p/4p1pQ/pb1pP1NP/1p1P2P1/1P4N1/P4PB1/6K1 w - - 0 1")
 	eng.SetPosition(board)
 	board.PrintBoard()
-	for i := range eng.SearchDepth(depth) {
+	for i := range eng.SearchDepth(depth, e) {
 		if m, ok := i.BestMove(); ok {
 			if m.From == chess.G2 && m.To == chess.E4 {
 				eloRatings[1] = 2600
@@ -64,7 +65,7 @@ func EstimateElo(eng ai.Engine, depth int) int {
 	board, _ = chess.ParseFen("8/3r2p1/pp1Bp1p1/1kP5/1n2K3/6R1/1P3P2/8 w - - 0 1")
 	eng.SetPosition(board)
 	board.PrintBoard()
-	for i := range eng.SearchDepth(depth) {
+	for i := range eng.SearchDepth(depth, e) {
 		if m, ok := i.BestMove(); ok {
 			if m.From == chess.C5 && m.To == chess.C6 {
 				eloRatings[2] = 2500
@@ -87,7 +88,7 @@ func EstimateElo(eng ai.Engine, depth int) int {
 	board, _ = chess.ParseFen("8/4kb1p/2p3pP/1pP1P1P1/1P3K2/1B6/8/8 w - - 0 1")
 	eng.SetPosition(board)
 	board.PrintBoard()
-	for i := range eng.SearchDepth(depth) {
+	for i := range eng.SearchDepth(depth, e) {
 		if m, ok := i.BestMove(); ok {
 			if m.From == chess.E5 && m.To == chess.E6 {
 				eloRatings[3] = 2500
@@ -106,7 +107,7 @@ func EstimateElo(eng ai.Engine, depth int) int {
 	board, _ = chess.ParseFen("b1R2nk1/5ppp/1p3n2/5N2/1b2p3/1P2BP2/4B1PP/6K1 w - - 0 1")
 	eng.SetPosition(board)
 	board.PrintBoard()
-	for i := range eng.SearchDepth(depth) {
+	for i := range eng.SearchDepth(depth, e) {
 		if m, ok := i.BestMove(); ok {
 			if m.From == chess.E3 && m.To == chess.C5 {
 				eloRatings[4] = 2500
@@ -135,7 +136,7 @@ func EstimateElo(eng ai.Engine, depth int) int {
 	board, _ = chess.ParseFen("3rr1k1/pp3pbp/2bp1np1/q3p1B1/2B1P3/2N4P/PPPQ1PP1/3RR1K1 w - - 0 1")
 	eng.SetPosition(board)
 	board.PrintBoard()
-	for i := range eng.SearchDepth(depth) {
+	for i := range eng.SearchDepth(depth, e) {
 		if m, ok := i.BestMove(); ok {
 			if m.From == chess.G5 && m.To == chess.F6 {
 				eloRatings[5] = 2500
@@ -158,7 +159,7 @@ func EstimateElo(eng ai.Engine, depth int) int {
 	board, _ = chess.ParseFen("r1b1qrk1/1ppn1pb1/p2p1npp/3Pp3/2P1P2B/2N5/PP1NBPPP/R2Q1RK1 b - - 0 1")
 	eng.SetPosition(board)
 	board.PrintBoard()
-	for i := range eng.SearchDepth(depth) {
+	for i := range eng.SearchDepth(depth, e) {
 		if m, ok := i.BestMove(); ok {
 			if m.From == chess.F6 && m.To == chess.H7 {
 				eloRatings[6] = 2500
@@ -179,7 +180,7 @@ func EstimateElo(eng ai.Engine, depth int) int {
 	board, _ = chess.ParseFen("2R1r3/5k2/pBP1n2p/6p1/8/5P1P/2P3P1/7K w - - 0 1")
 	eng.SetPosition(board)
 	board.PrintBoard()
-	for i := range eng.SearchDepth(depth) {
+	for i := range eng.SearchDepth(depth, e) {
 		if m, ok := i.BestMove(); ok {
 			if m.From == chess.B6 && m.To == chess.D8 {
 				eloRatings[7] = 2500
@@ -194,7 +195,7 @@ func EstimateElo(eng ai.Engine, depth int) int {
 	board, _ = chess.ParseFen("2r2rk1/1p1R1pp1/p3p2p/8/4B3/3QB1P1/q1P3KP/8 w - - 0 1")
 	eng.SetPosition(board)
 	board.PrintBoard()
-	for i := range eng.SearchDepth(depth) {
+	for i := range eng.SearchDepth(depth, e) {
 		if m, ok := i.BestMove(); ok {
 			if m.From == chess.E3 && m.To == chess.D4 {
 				eloRatings[8] = 2500
@@ -215,7 +216,7 @@ func EstimateElo(eng ai.Engine, depth int) int {
 	board, _ = chess.ParseFen("r1bq1rk1/p4ppp/1pnp1n2/2p5/2PPpP2/1NP1P3/P2B2PP/R1BQ1RK1 b - - 0 1")
 	eng.SetPosition(board)
 	board.PrintBoard()
-	for i := range eng.SearchDepth(depth) {
+	for i := range eng.SearchDepth(depth, e) {
 		if m, ok := i.BestMove(); ok {
 			if m.From == chess.D8 && m.To == chess.D7 {
 				eloRatings[9] = 2600
@@ -238,6 +239,8 @@ func EstimateElo(eng ai.Engine, depth int) int {
 			}
 		}
 	}
+
+	fmt.Println(eloRatings)
 
 	return (eloRatings[0] + eloRatings[1] + eloRatings[2] + eloRatings[3] +
 		eloRatings[4] + eloRatings[5] + eloRatings[6] + eloRatings[7] +

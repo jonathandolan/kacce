@@ -66,10 +66,7 @@ func Material(b *chess.Board) int {
 }
 
 var EvaluateBasic = func(b *chess.Board) int {
-	score := 0
-	material := Material(b)
-	score = material
-	return score
+	return Material(b)
 }
 
 var EvaluateWithTables = func(b *chess.Board) int {

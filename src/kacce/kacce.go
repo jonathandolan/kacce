@@ -76,8 +76,8 @@ func playEvalTestGame(eng1 ai.Engine, eng2 ai.Engine, board *chess.Board, e1 eva
 					os.Exit(0)
 				}
 			}
-
 		}
+
 		board.PrintBoard()
 		eng1.SetPosition(board)
 		eng2.SetPosition(board)
@@ -99,8 +99,8 @@ func playEvalTestGame(eng1 ai.Engine, eng2 ai.Engine, board *chess.Board, e1 eva
 					os.Exit(0)
 				}
 			}
-
 		}
+
 		eng1.SetPosition(board)
 		eng2.SetPosition(board)
 		board.PrintBoard()
@@ -113,51 +113,17 @@ func playEvalTestGame(eng1 ai.Engine, eng2 ai.Engine, board *chess.Board, e1 eva
 
 func main() {
 	board, _ := chess.ParseFen("")
-	//board.PrintBoard()
+	board.PrintBoard()
 
-	board.TestMoves()
-
-	//	//board.Piece[4] = chess.NoPiece
-	//	board.PrintBoard()
-	//
-	//	m := chess.Move{chess.H2, chess.H3, chess.NoPiece}
-	//	board = board.MakeMove(m)
-	//	board.PrintBoard()
-	//
-	//	m = chess.Move{chess.C7, chess.C5, chess.NoPiece}
-	//	board = board.MakeMove(m)
-	//	board.PrintBoard()
-	//
-	//	m = chess.Move{chess.H3, chess.H4, chess.NoPiece}
-	//	board = board.MakeMove(m)
-	//	board.PrintBoard()
-	//
-	//	m = chess.Move{chess.C5, chess.C4, chess.NoPiece}
-	//	board = board.MakeMove(m)
-	//	board.PrintBoard()
-	//
-	//	m = chess.Move{chess.H4, chess.H5, chess.NoPiece}
-	//	board = board.MakeMove(m)
-	//	board.PrintBoard()
-	//
-	//	m = chess.Move{chess.C4, chess.C3, chess.NoPiece}
-	//	board = board.MakeMove(m)
-	//	board.PrintBoard()
-	//
-	//	m = chess.Move{chess.H5, chess.H6, chess.NoPiece}
-	//	board = board.MakeMove(m)
-	//	board.PrintBoard()
-	//
-	//	m = chess.Move{chess.C3, chess.D2, chess.NoPiece}
-	//	board = board.MakeMove(m)
-	//	board.PrintBoard()
-	//	fmt.Println(board.LegalMoves())
+	//fmt.Println(chess.IsCastleMove(chess.Move{chess.E1, chess.A1, chess.NoPiece}))
+	//fmt.Println(board.LegalMoves())
+	//fmt.Println(board.CastleSq)
 
 	//var log *log.Logger
 	//eng1, _ := uci.Run("stockfish", nil, log)
-	//eng1 := ai.Engine{}
-	//eng2 := ai.Engine{}
-	//playEvalTestGame(eng1, eng2, board, eval.EvaluateBasic, eval.EvaluateWithTables)
+	eng1 := ai.Engine{}
+	eng2 := ai.Engine{}
+	playEvalTestGame(eng1, eng2, board, eval.EvaluateBasic, eval.EvaluateWithTables)
 	//playGame(eng1, eng2, board)
 	//fmt.Println(elo.EstimateElo(eng2, 5))
 }

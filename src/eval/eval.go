@@ -32,6 +32,55 @@ func ScoreTable(b *chess.Board) int {
 	}
 }
 
+func MirrorScoreTable(b *chess.Board) int {
+	score := 0
+	for i, v := range b.Piece {
+		if v == chess.Pawn { //pawn
+			if v == chess.WP {
+				score = score + pawnTable[i]
+			} else {
+				score = score - pawnTable[mirror[i]]
+			}
+		} else if v == chess.Knight { //knight in shining armor
+			if v == chess.WN {
+				score = score + knightTable[i]
+			} else {
+				score = score - knightTable[mirror[i]]
+			}
+		} else if v == chess.Bishop { //bishop
+			if v == chess.WB {
+				score = score + bishopTable[i]
+			} else {
+				score = score - bishopTable[mirror[i]]
+			}
+		} else if v == chess.Rook { //rook
+			if v == chess.WR {
+				score = score + rookTable[i]
+			} else {
+				score = score - rookTable[mirror[i]]
+			}
+		} else if v == chess.Queen { //queen
+			if v == chess.WQ {
+				score = score + queenTable[i]
+			} else {
+				score = score - rookTable[mirror[i]]
+			}
+		} else if v == chess.King { //king
+			if v == chess.WK {
+				score = score + kingTable[i]
+			} else {
+				score = score - kingTable[mirror[i]]
+			}
+		}
+	}
+
+	if b.SideToMove == chess.Black {
+		return -score
+	} else {
+		return score
+	}
+}
+
 //returns balance of material. white is positive, black is negative
 func Material(b *chess.Board) int {
 	score := 0
@@ -77,18 +126,26 @@ var EvaluateWithTables = func(b *chess.Board) int {
 	return score
 }
 
+var EvaluateWithMirrorTables = func(b *chess.Board) int {
+	score := 0
+	material := Material(b)
+	tableScore := MirrorScoreTable(b)
+	score = material + tableScore
+	return score
+}
+
 var EvaluateWithPassedPawns = func(b *chess.Board) int {
-	b.PrintBoard()
+	b.PrintBoard(false)
 	return 7
 }
 
 func EvalTest(b *chess.Board) bool {
-	inputScore := EvaluateBasic(b)
+	inputScore := EvaluateWithTables(b)
 	fmt.Println("inputScore: ", inputScore)
 
 	mirror := b.MirrorBoard()
-	mirror.PrintBoard()
-	mirrorScore := EvaluateBasic(&mirror)
+	//mirror.PrintBoard(false)
+	mirrorScore := EvaluateWithTables(&mirror)
 	fmt.Println("mirrorScore: ", mirrorScore)
 
 	if mirrorScore == -inputScore {

@@ -1,3 +1,7 @@
+//Evaluation functions for kacce anti computer chess engine
+//Written by Jonathan Dolan
+//Spring 2015package eval
+
 package eval
 
 import (
@@ -7,6 +11,7 @@ import (
 
 type Eval func(b *chess.Board) int
 
+//Score for a position from tables in resources.go
 func ScoreTable(b *chess.Board) int {
 	score := 0
 	for i, v := range b.Piece {
@@ -32,6 +37,7 @@ func ScoreTable(b *chess.Board) int {
 	}
 }
 
+//Score including mirror for black from tables
 func MirrorScoreTable(b *chess.Board) int {
 	score := 0
 	for i, v := range b.Piece {
@@ -114,10 +120,12 @@ func Material(b *chess.Board) int {
 	return score
 }
 
+//Just material
 var EvaluateBasic = func(b *chess.Board) int {
 	return Material(b)
 }
 
+//Material and tables
 var EvaluateWithTables = func(b *chess.Board) int {
 	score := 0
 	material := Material(b)
@@ -126,6 +134,7 @@ var EvaluateWithTables = func(b *chess.Board) int {
 	return score
 }
 
+//Material with tables and mirrors
 var EvaluateWithMirrorTables = func(b *chess.Board) int {
 	score := 0
 	material := Material(b)
@@ -139,6 +148,7 @@ var EvaluateWithPassedPawns = func(b *chess.Board) int {
 	return 7
 }
 
+//tests accuracy of an eval, used for debugging.
 func EvalTest(b *chess.Board) bool {
 	inputScore := EvaluateWithTables(b)
 	fmt.Println("inputScore: ", inputScore)

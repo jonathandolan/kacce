@@ -1,3 +1,7 @@
+//Main method for the kacce anti computer chess engine.
+//Written by Jonathan Dolan
+//Spring 2015
+
 package main
 
 import (
@@ -15,6 +19,9 @@ import (
 	"strings"
 )
 
+//Plays a single game, between a uci chess engine, and kacce's AI.
+//Parameters: uci = external chess engine, ai = internal ai, e = evaluation function for ai, board = board to use
+//No return value
 func playGame(uci *uci.Engine, ai ai.Engine, e eval.Eval, board *chess.Board) {
 	//setup new positions
 	uci.SetPosition(board)
@@ -28,13 +35,13 @@ func playGame(uci *uci.Engine, ai ai.Engine, e eval.Eval, board *chess.Board) {
 				board = board.MakeMove(m)
 				if _, mate := board.IsCheckOrMate(); mate {
 					fmt.Println("WHITE WINS")
-					board.PrintBoard(false)
+					board.PrintBoard(true)
 					os.Exit(0)
 				}
 			}
 
 		}
-		board.PrintBoard(false)
+		board.PrintBoard(true)
 		uci.SetPosition(board)
 		ai.SetPosition(board)
 
@@ -45,7 +52,7 @@ func playGame(uci *uci.Engine, ai ai.Engine, e eval.Eval, board *chess.Board) {
 				board = board.MakeMove(m)
 				if _, mate := board.IsCheckOrMate(); mate {
 					fmt.Println("BLACK WINS")
-					board.PrintBoard(false)
+					board.PrintBoard(true)
 					os.Exit(0)
 				}
 			}
@@ -53,12 +60,17 @@ func playGame(uci *uci.Engine, ai ai.Engine, e eval.Eval, board *chess.Board) {
 		}
 		uci.SetPosition(board)
 		ai.SetPosition(board)
-		board.PrintBoard(false)
+		board.PrintBoard(true)
 	}
 	uci.Quit()
 	ai.Quit()
 }
 
+//Plays a single game between two ai's with different evaluation functions.
+//Used to test which evaluation function is better.
+//Parameters: eng1, eng2 = the two AI objects to play each other, board = board to use, e1, e2 = evaluation functions
+//for eng1, and eng2.
+//No return value
 func playEvalTestGame(eng1 ai.Engine, eng2 ai.Engine, board *chess.Board, e1 eval.Eval, e2 eval.Eval) {
 	board.SideToMove = 0
 
@@ -107,6 +119,9 @@ func playEvalTestGame(eng1 ai.Engine, eng2 ai.Engine, board *chess.Board, e1 eva
 	}
 }
 
+//Views the history of a chess board.
+//Parameters: board = board whose history will be viewed, includeEval = boolean determines whether to include evaluations of each position.
+//resultString = string containing the result of the game, ie: Black won, White won, Draw, etc.
 func viewHistory(board *chess.Board, includeEval bool, resultString string) {
 	var input rune
 	index := len(board.History) - 1
@@ -155,6 +170,8 @@ func viewHistory(board *chess.Board, includeEval bool, resultString string) {
 	}
 }
 
+//Quits after viewHistory, and saves game if required
+//Parameters: board = board to save if necessary
 func quit(board *chess.Board) {
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Println("Would you like to save this game? Y/N")
@@ -170,6 +187,8 @@ func quit(board *chess.Board) {
 	}
 }
 
+//Helper method for quit. Saves game as a text file.
+//Parameters: board = board to save, name = file name
 func saveGame(board *chess.Board, name string) {
 	name = strings.Trim(name, "\n")
 	file, _ := os.Create(name)
@@ -185,6 +204,7 @@ func saveGame(board *chess.Board, name string) {
 
 }
 
+//Opens a previously said game and views it.
 func openSavedGame() {
 	reader := bufio.NewReader(os.Stdin)
 	board, _ := chess.ParseFen("")
@@ -207,6 +227,7 @@ func openSavedGame() {
 
 }
 
+//Starts new game
 func startNewGame() {
 	board, _ := chess.ParseFen("")
 	reader := bufio.NewReader(os.Stdin)
@@ -216,7 +237,6 @@ func startNewGame() {
 	if input == "kvk" {
 		playEvalTestGame(ai.Engine{}, ai.Engine{}, board, eval.EvaluateBasic, eval.EvaluateWithTables)
 	} else if input == "kvs" {
-		fmt.Println("SDKFJH")
 		var log *log.Logger
 		eng1, _ := uci.Run("stockfish", nil, log)
 		eng2 := ai.Engine{}
@@ -224,6 +244,80 @@ func startNewGame() {
 	}
 }
 
+//Plays a game of one human vs. another human
+func humanVsHuman() {
+	board, _ := chess.ParseFen("")
+	reader := bufio.NewReader(os.Stdin)
+	move := chess.Move{}
+
+	board.PrintBoard(false)
+
+	for {
+		move = humanTurn(board, reader)
+		if !contains(board.LegalMoves(), move) {
+			fmt.Println("Invalid move!")
+			humanTurn(board, reader)
+		}
+
+		board = board.MakeMove(move)
+		board.PrintBoard(false)
+
+		if _, mate := board.IsCheckOrMate(); mate {
+			if board.SideToMove == 0 {
+				fmt.Println("White wins!")
+			} else {
+				fmt.Println("Black wins!")
+			}
+		}
+
+		if board.Rule50 >= 50 {
+			fmt.Println("Draw: 50 move rule")
+		}
+	}
+
+}
+
+//Helper method to determine if a human move is valid.
+func contains(arr []chess.Move, element chess.Move) bool {
+	for _, v := range arr {
+		if v.From == element.From && v.To == element.To {
+			return true
+		}
+	}
+	return false
+}
+
+//Plays a single human turn.
+//Parameters: board = current position, reader = object to read input from keyboard
+func humanTurn(board *chess.Board, reader *bufio.Reader) chess.Move {
+	answer := chess.Move{}
+	if board.SideToMove == 0 {
+		fmt.Println("Side to move: White")
+	} else {
+		fmt.Println("Side to move: Black")
+	}
+
+	fmt.Println("Please enter your start square (a-h, 1-8 ie: a1, g6, etc.)") //like a g6
+	startSquare, _ := reader.ReadString('\n')
+	startSquare = startSquare[:len(startSquare)-1]
+	answer.From = chess.SquareFromString(startSquare)
+	if answer.From == chess.NoSquare {
+		fmt.Println("Invalid square.")
+		humanTurn(board, reader)
+	}
+
+	fmt.Println("Please enter your destination square")
+	destSquare, _ := reader.ReadString('\n')
+	destSquare = destSquare[:len(destSquare)-1]
+	answer.To = chess.SquareFromString(destSquare)
+	if answer.To == chess.NoSquare {
+		fmt.Println("Invalid square.")
+		humanTurn(board, reader)
+	}
+	return answer
+}
+
+//Method that tests an evaluation function and displays its elo score
 func testElo() {
 	//board, _ := chess.ParseFen("")
 	reader := bufio.NewReader(os.Stdin)

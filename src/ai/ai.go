@@ -1,3 +1,7 @@
+//AI portion of the kacce anti computer chess engine
+//Written by Jonathan Dolan
+//Spring 2015package eval
+
 package ai
 
 import (

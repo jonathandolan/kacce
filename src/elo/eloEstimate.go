@@ -1,11 +1,15 @@
+//Package elo provides a way of estimating the ELO score of a given ai, and evaluation function.
+//Thanks to:http://www.chessmaniac.com/ELORating/ELO_Chess_Rating.shtml
+//Written by Jonathan Dolan
+//Spring 2015
+
 package elo
 
 import (
-	"github.com/malbrecht/chess"
-	//"github.com/malbrecht/chess/engine/uci"
 	"ai"
 	"eval"
 	"fmt"
+	"github.com/malbrecht/chess"
 )
 
 func EstimateElo(eng ai.Engine, depth int, e eval.Eval) int {

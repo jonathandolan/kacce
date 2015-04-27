@@ -1,0 +1,1612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b2385bf3-a95f-4297-a473-74b2e7214acc" name="Default" comment="" />
+    <ignored path="kacce.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="kacce" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="eval.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/eval/eval.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="792">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+              <folding>
+                <element signature="n#!!block;n#ScoreTable#0" expanded="false" />
+                <element signature="n#!!block;n#MirrorScoreTable#0" expanded="false" />
+                <element signature="n#!!block;n#Material#0" expanded="false" />
+                <element signature="e#3263#3331#0" expanded="false" />
+                <element signature="e#3355#3519#0" expanded="false" />
+                <element signature="e#3556#3732#0" expanded="false" />
+                <element signature="n#!!block;n#EvalTest#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kacce.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kacce/kacce.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2124">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="n#!!block;n#playGame#0" expanded="false" />
+                <element signature="n#!!block;n#playEvalTestGame#0" expanded="false" />
+                <element signature="n#!!block;n#viewHistory#0" expanded="false" />
+                <element signature="n#!!block;n#quit#0" expanded="false" />
+                <element signature="n#!!block;n#saveGame#0" expanded="false" />
+                <element signature="n#!!block;n#openSavedGame#0" expanded="false" />
+                <element signature="n#!!block;n#startNewGame#0" expanded="false" />
+                <element signature="n#!!block;n#humanVsHuman#0" expanded="false" />
+                <element signature="n#!!block;n#testElo#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="move.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/github.com/malbrecht/chess/move.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="4281" max-vertical-offset="4698">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="movegen.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/github.com/malbrecht/chess/movegen.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3348" max-vertical-offset="6300">
+              <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="board.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/github.com/malbrecht/chess/board.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="10458" max-vertical-offset="10818">
+              <caret line="581" column="27" selection-start-line="581" selection-start-column="27" selection-end-line="581" selection-end-column="27" />
+              <folding>
+                <element signature="n#!!block;n#MirrorBoard#0" expanded="false" />
+                <element signature="n#!!block;n#IsCheck#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ai.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ai/ai.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="2502">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding>
+                <element signature="n#!!block;n#minimax#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eloEstimate.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/elo/eloEstimate.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="378">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding>
+                <element signature="n#!!block;n#EstimateElo#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resources.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/eval/resources.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.08503937" vertical-offset="0" max-vertical-offset="2700">
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/board.go" />
+        <option value="$PROJECT_DIR$/src/main.go" />
+        <option value="$PROJECT_DIR$/chess/chess.go" />
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/src/newPackage/kacce.go" />
+        <option value="$PROJECT_DIR$/src/chess/board_test.go" />
+        <option value="$PROJECT_DIR$/Acknowledgments" />
+        <option value="$PROJECT_DIR$/src/kacce/test.go" />
+        <option value="$PROJECT_DIR$/src/elo/temp" />
+        <option value="$PROJECT_DIR$/src/elo/ai/ai.go" />
+        <option value="$PROJECT_DIR$/src/github.com/malbrecht/chess/README" />
+        <option value="$PROJECT_DIR$/src/eval/resources.go" />
+        <option value="$PROJECT_DIR$/src/github.com/malbrecht/chess/moveTables.go" />
+        <option value="$PROJECT_DIR$/src/github.com/malbrecht/chess/move.go" />
+        <option value="$PROJECT_DIR$/src/github.com/malbrecht/chess/movegen.go" />
+        <option value="$PROJECT_DIR$/src/github.com/malbrecht/chess/board.go" />
+        <option value="$PROJECT_DIR$/src/kacce/kacce.go" />
+        <option value="$PROJECT_DIR$/src/eval/eval.go" />
+        <option value="$PROJECT_DIR$/src/ai/ai.go" />
+        <option value="$PROJECT_DIR$/src/elo/eloEstimate.go" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
+    <option name="y" value="29" />
+    <option name="width" value="1282" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kacce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kacce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kacce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kacce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kacce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kacce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kacce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kacce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kacce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kacce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eval" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kacce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kacce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kacce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kacce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ai" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="LegalMoves&#9;null&#9;null" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pkg" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Application.kacce">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <option name="name" value="Go application" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <option name="GDB_PATH" value="gdb" />
+      <option name="STARTUP_COMMANDS" value="" />
+      <option name="autoStartGdb" value="true" />
+      <option name="debugBuilderArguments" value="-gcflags &quot;-N -l&quot;" />
+      <option name="scriptName" value="$PROJECT_DIR$/src/main.go" />
+      <option name="packageDir" value="" />
+      <option name="runPackage" value="false" />
+      <option name="runDebugger" value="false" />
+      <option name="scriptArguments" value="" />
+      <option name="runBuilderArguments" value="" />
+      <option name="runExecutableName" value="" />
+      <option name="goBuildBeforeRun" value="false" />
+      <option name="goOutputDir" value="" />
+      <option name="workingDir" value="$PROJECT_DIR$" />
+      <option name="envVars" value="" />
+      <module name="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ErlangApplicationRunConfiguration" factoryName="Erlang Application">
+      <module name="" />
+      <option name="erlFlags" value="" />
+      <option name="moduleAndFunction" value="" />
+      <option name="name" value="Erlang" />
+      <option name="params" value="" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RebarEunitRunConfigurationType" factoryName="Erlang Rebar Eunit">
+      <module name="" />
+      <option name="command" value="eunit" />
+      <option name="name" value="Erlang Rebar Eunit" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <option name="skipDependencies" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ErlangUnitRunConfigurationType" factoryName="Erlang Eunit">
+      <module name="" />
+      <option name="name" value="Erlang" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <option name="functionNames">
+        <set />
+      </option>
+      <option name="kind" value="MODULE" />
+      <option name="moduleNames">
+        <set />
+      </option>
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoTestConfiguration" factoryName="Go Test">
+      <option name="name" value="Go Test" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <option name="envVars" value="" />
+      <option name="testRunnerArgs" value="" />
+      <option name="testTargetType" value="Package" />
+      <option name="packageName" value="" />
+      <option name="packageDir" value="" />
+      <option name="testFile" value="" />
+      <option name="testArgs" value="" />
+      <option name="workingDir" value="" />
+      <option name="executeWhat" value="Test" />
+      <option name="filter" value="" />
+      <option name="useShortRun" value="false" />
+      <option name="testBeforeBenchmark" value="false" />
+      <option name="goVetEnabled" value="false" />
+      <module name="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unnamed" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <option name="name" value="Unnamed" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <option name="GDB_PATH" value="gdb" />
+      <option name="STARTUP_COMMANDS" value="" />
+      <option name="autoStartGdb" value="true" />
+      <option name="debugBuilderArguments" value="-gcflags &quot;-N -l&quot;" />
+      <option name="scriptName" value="$PROJECT_DIR$/src/main.go" />
+      <option name="packageDir" value="" />
+      <option name="runPackage" value="false" />
+      <option name="runDebugger" value="false" />
+      <option name="scriptArguments" value="" />
+      <option name="runBuilderArguments" value="" />
+      <option name="runExecutableName" value="" />
+      <option name="goBuildBeforeRun" value="false" />
+      <option name="goOutputDir" value="" />
+      <option name="workingDir" value="$PROJECT_DIR$" />
+      <option name="envVars" value="" />
+      <module name="" />
+      <RunnerSettings RunnerId="GoApplicationRunner" />
+      <ConfigurationWrapper RunnerId="GoApplicationRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="kacce" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <option name="name" value="kacce" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <option name="GDB_PATH" value="gdb" />
+      <option name="STARTUP_COMMANDS" value="" />
+      <option name="autoStartGdb" value="true" />
+      <option name="debugBuilderArguments" value="-gcflags &quot;-N -l&quot;" />
+      <option name="scriptName" value="" />
+      <option name="packageDir" value="$PROJECT_DIR$/src/kacce" />
+      <option name="runPackage" value="true" />
+      <option name="runDebugger" value="false" />
+      <option name="scriptArguments" value="" />
+      <option name="runBuilderArguments" value="" />
+      <option name="runExecutableName" value="kacce" />
+      <option name="goBuildBeforeRun" value="true" />
+      <option name="goOutputDir" value="$PROJECT_DIR$/bin" />
+      <option name="workingDir" value="$PROJECT_DIR$" />
+      <option name="envVars" value="" />
+      <module name="kacce" />
+      <RunnerSettings RunnerId="GoApplicationRunner" />
+      <ConfigurationWrapper RunnerId="GoApplicationRunner" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Go Application.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="Go Application.kacce" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2385bf3-a95f-4297-a473-74b2e7214acc" name="Default" comment="" />
+      <created>1423594515018</created>
+      <option name="number" value="Default" />
+      <updated>1423594515018</updated>
+      <workItem from="1423594516710" duration="367000" />
+      <workItem from="1423594898163" duration="1563000" />
+      <workItem from="1423596480647" duration="105000" />
+      <workItem from="1423596629075" duration="6761000" />
+      <workItem from="1423614196896" duration="1392000" />
+      <workItem from="1423675190079" duration="695000" />
+      <workItem from="1423679988478" duration="386000" />
+      <workItem from="1424281151947" duration="1588000" />
+      <workItem from="1424283841030" duration="1220000" />
+      <workItem from="1424286040779" duration="647000" />
+      <workItem from="1424287990783" duration="133000" />
+      <workItem from="1424288172807" duration="150000" />
+      <workItem from="1424288357647" duration="1027000" />
+      <workItem from="1424810192636" duration="7716000" />
+      <workItem from="1424837363680" duration="493000" />
+      <workItem from="1424885105863" duration="13132000" />
+      <workItem from="1425325085603" duration="17793000" />
+      <workItem from="1425365482569" duration="961000" />
+      <workItem from="1425945882917" duration="12104000" />
+      <workItem from="1426618484702" duration="7710000" />
+      <workItem from="1426628161989" duration="73000" />
+      <workItem from="1426628250843" duration="44000" />
+      <workItem from="1426628309302" duration="1610000" />
+      <workItem from="1426629934936" duration="134000" />
+      <workItem from="1426630083420" duration="6612000" />
+      <workItem from="1426637277725" duration="9639000" />
+      <workItem from="1426707888912" duration="13346000" />
+      <workItem from="1426869945509" duration="3089000" />
+      <workItem from="1426876348003" duration="7285000" />
+      <workItem from="1427218191200" duration="1815000" />
+      <workItem from="1427220065874" duration="25754000" />
+      <workItem from="1427501229689" duration="4910000" />
+      <workItem from="1427741051521" duration="18451000" />
+      <workItem from="1427914704607" duration="20669000" />
+      <workItem from="1427943766348" duration="247000" />
+      <workItem from="1428005327367" duration="7899000" />
+      <workItem from="1428019920263" duration="2010000" />
+      <workItem from="1428343514686" duration="3310000" />
+      <workItem from="1428350260613" duration="10954000" />
+      <workItem from="1428377744812" duration="10410000" />
+      <workItem from="1428428863716" duration="9660000" />
+      <workItem from="1428540851325" duration="8640000" />
+      <workItem from="1428594499704" duration="28326000" />
+      <workItem from="1429047619258" duration="2052000" />
+      <workItem from="1430166368233" duration="435000" />
+    </task>
+    <task id="LOCAL-00001" summary="Correct settings, chess library working, start of UCI support.">
+      <created>1423680315209</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1423680315209</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Switched packages for board representation.">
+      <created>1424288665338</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1424288665338</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Switched packages for board representation.">
+      <created>1424288773984</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1424288773984</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Correctly working interface, along with support for playing two chess engines against each other.">
+      <created>1425363847660</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1425363847660</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added a way to estimate the ELO rating of a chess engine by having it solve puzzles. Will be used to set appropriate difficulty during machine learning.">
+      <created>1426106707460</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1426106707460</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added VERY simple AI, using the minimax search, and a VERY simple table-based evaluation function. It took 90 minutes to estimate the ELO, and only got 330.">
+      <created>1427218355232</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1427218355233</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added alpha-beta pruning to AI, with MASSIVE timing improvement. Elo: 330. Time: 1m2.7s">
+      <created>1427228688674</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1427228688674</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Commit before overhauling movegen.">
+      <created>1428008048898</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1428008048898</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Total overhaul of move generation.">
+      <created>1428436869668</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1428436869668</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added better interface, kacce vs kacce or kace vs stockfish games, and the ability to save games, and open and view saved games.">
+      <created>1428722139343</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1428722139343</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Refactoring, cleanup. Added comments.">
+      <created>1429049069764</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1429049069764</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="273317000" />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="29" width="1282" height="777" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.4789984" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Go" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42145014" sideWeight="0.54361874" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42145014" sideWeight="0.25686592" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32779455" sideWeight="0.5864297" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17528272" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42145014" sideWeight="0.45638126" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Go" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.4409385" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19902913" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38567072" sideWeight="0.60679615" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.55906147" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="Correct settings, chess library working, start of UCI support." />
+    <MESSAGE value="Switched packages for board representation." />
+    <MESSAGE value="Correctly working interface, along with support for playing two chess engines against each other." />
+    <MESSAGE value="Added a way to estimate the ELO rating of a chess engine by having it solve puzzles. Will be used to set appropriate difficulty during machine learning." />
+    <MESSAGE value="Added VERY simple AI, using the minimax search, and a VERY simple table-based evaluation function. It took 90 minutes to estimate the ELO, and only got 330." />
+    <MESSAGE value="Added alpha-beta pruning to AI, with MASSIVE timing improvement. Elo: 330. Time: 1m2.7s" />
+    <MESSAGE value="Commit before overhauling movegen." />
+    <MESSAGE value="Total overhaul of move generation." />
+    <MESSAGE value="Added better interface, kacce vs kacce or kace vs stockfish games, and the ability to save games, and open and view saved games." />
+    <MESSAGE value="Refactoring, cleanup. Added comments." />
+    <MESSAGE value="Added edits to library." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added edits to library." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/ai/ai.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1098" max-vertical-offset="1278">
+          <caret line="61" column="41" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+          <folding>
+            <element signature="n#!!block;n#minimax#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/malbrecht/chess/engine/uci/uci.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="12672">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/malbrecht/chess/engine/engine.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1620" max-vertical-offset="2322">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/malbrecht/chess/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="270">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/elo/eloEstimate.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2826" max-vertical-offset="4122">
+          <caret line="157" column="36" selection-start-line="157" selection-start-column="36" selection-end-line="157" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kacce/kacce.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1008" max-vertical-offset="1278">
+          <caret line="56" column="34" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!block;n#playGame#0" expanded="false" />
+            <element signature="n#!!block;n#playEvalTestGame#0" expanded="false" />
+            <element signature="n#!!block;n#viewHistory#0" expanded="false" />
+            <element signature="n#!!block;n#quit#0" expanded="false" />
+            <element signature="n#!!block;n#saveGame#0" expanded="false" />
+            <element signature="n#!!block;n#openSavedGame#0" expanded="false" />
+            <element signature="n#!!block;n#startNewGame#0" expanded="false" />
+            <element signature="n#!!block;n#humanVsHuman#0" expanded="false" />
+            <element signature="n#!!block;n#testElo#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eval/eval.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="432">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!block;n#ScoreTable#0" expanded="false" />
+            <element signature="n#!!block;n#MirrorScoreTable#0" expanded="false" />
+            <element signature="n#!!block;n#Material#0" expanded="false" />
+            <element signature="e#3263#3331#0" expanded="false" />
+            <element signature="e#3355#3519#0" expanded="false" />
+            <element signature="e#3556#3732#0" expanded="false" />
+            <element signature="n#!!block;n#EvalTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ai/ai.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="1278">
+          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+          <folding>
+            <element signature="n#!!block;n#minimax#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/malbrecht/chess/engine/uci/uci.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="12672">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/malbrecht/chess/engine/engine.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1512" max-vertical-offset="2322">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/malbrecht/chess/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="270">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/elo/eloEstimate.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2826" max-vertical-offset="4122">
+          <caret line="157" column="36" selection-start-line="157" selection-start-column="36" selection-end-line="157" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kacce/kacce.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1242">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#playGame#0" expanded="false" />
+            <element signature="n#!!block;n#playEvalTestGame#0" expanded="false" />
+            <element signature="n#!!block;n#viewHistory#0" expanded="false" />
+            <element signature="n#!!block;n#quit#0" expanded="false" />
+            <element signature="n#!!block;n#saveGame#0" expanded="false" />
+            <element signature="n#!!block;n#openSavedGame#0" expanded="false" />
+            <element signature="n#!!block;n#startNewGame#0" expanded="false" />
+            <element signature="n#!!block;n#humanVsHuman#0" expanded="false" />
+            <element signature="n#!!block;n#testElo#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/malbrecht/chess/board.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2868" max-vertical-offset="10242">
+          <caret line="200" column="37" selection-start-line="200" selection-start-column="37" selection-end-line="200" selection-end-column="37" />
+          <folding>
+            <element signature="n#!!block;n#MirrorBoard#0" expanded="false" />
+            <element signature="n#!!block;n#IsCheck#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/elo/eloEstimate.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1512" max-vertical-offset="4122">
+          <caret line="84" column="24" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kacce/kacce.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="532" max-vertical-offset="1188">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#playGame#0" expanded="false" />
+            <element signature="n#!!block;n#playEvalTestGame#0" expanded="false" />
+            <element signature="n#!!block;n#viewHistory#0" expanded="false" />
+            <element signature="n#!!block;n#quit#0" expanded="false" />
+            <element signature="n#!!block;n#saveGame#0" expanded="false" />
+            <element signature="n#!!block;n#openSavedGame#0" expanded="false" />
+            <element signature="n#!!block;n#startNewGame#0" expanded="false" />
+            <element signature="n#!!block;n#humanVsHuman#0" expanded="false" />
+            <element signature="n#!!block;n#testElo#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/malbrecht/chess/board.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10242">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#MirrorBoard#0" expanded="false" />
+            <element signature="n#!!block;n#IsCheck#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kacce/kacce.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="553" max-vertical-offset="1188">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#playGame#0" expanded="false" />
+            <element signature="n#!!block;n#playEvalTestGame#0" expanded="false" />
+            <element signature="n#!!block;n#viewHistory#0" expanded="false" />
+            <element signature="n#!!block;n#quit#0" expanded="false" />
+            <element signature="n#!!block;n#saveGame#0" expanded="false" />
+            <element signature="n#!!block;n#openSavedGame#0" expanded="false" />
+            <element signature="n#!!block;n#startNewGame#0" expanded="false" />
+            <element signature="n#!!block;n#humanVsHuman#0" expanded="false" />
+            <element signature="n#!!block;n#testElo#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/malbrecht/chess/board.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="9964" max-vertical-offset="10368">
+          <caret line="353" column="9" selection-start-line="353" selection-start-column="9" selection-end-line="353" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!block;n#MirrorBoard#0" expanded="false" />
+            <element signature="n#!!block;n#IsCheck#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kacce/kacce.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="306">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#playGame#0" expanded="false" />
+            <element signature="n#!!block;n#playEvalTestGame#0" expanded="false" />
+            <element signature="n#!!block;n#viewHistory#0" expanded="false" />
+            <element signature="n#!!block;n#quit#0" expanded="false" />
+            <element signature="n#!!block;n#saveGame#0" expanded="false" />
+            <element signature="n#!!block;n#openSavedGame#0" expanded="false" />
+            <element signature="n#!!block;n#startNewGame#0" expanded="false" />
+            <element signature="n#!!block;n#humanVsHuman#0" expanded="false" />
+            <element signature="n#!!block;n#testElo#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/malbrecht/chess/board.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="9778" max-vertical-offset="10170">
+          <caret line="554" column="9" selection-start-line="554" selection-start-column="9" selection-end-line="554" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!block;n#MirrorBoard#0" expanded="false" />
+            <element signature="n#!!block;n#IsCheck#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kacce/kacce.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="324">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="n#!!block;n#playGame#0" expanded="false" />
+            <element signature="n#!!block;n#playEvalTestGame#0" expanded="false" />
+            <element signature="n#!!block;n#viewHistory#0" expanded="false" />
+            <element signature="n#!!block;n#quit#0" expanded="false" />
+            <element signature="n#!!block;n#saveGame#0" expanded="false" />
+            <element signature="n#!!block;n#openSavedGame#0" expanded="false" />
+            <element signature="n#!!block;n#startNewGame#0" expanded="false" />
+            <element signature="n#!!block;n#humanVsHuman#0" expanded="false" />
+            <element signature="n#!!block;n#testElo#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/malbrecht/chess/board.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9702">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#MirrorBoard#0" expanded="false" />
+            <element signature="n#!!block;n#IsCheck#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kacce/kacce.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="324">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="n#!!block;n#playGame#0" expanded="false" />
+            <element signature="n#!!block;n#playEvalTestGame#0" expanded="false" />
+            <element signature="n#!!block;n#viewHistory#0" expanded="false" />
+            <element signature="n#!!block;n#quit#0" expanded="false" />
+            <element signature="n#!!block;n#saveGame#0" expanded="false" />
+            <element signature="n#!!block;n#openSavedGame#0" expanded="false" />
+            <element signature="n#!!block;n#startNewGame#0" expanded="false" />
+            <element signature="n#!!block;n#humanVsHuman#0" expanded="false" />
+            <element signature="n#!!block;n#testElo#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/malbrecht/chess/board.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6264" max-vertical-offset="9702">
+          <caret line="134" column="46" selection-start-line="134" selection-start-column="46" selection-end-line="134" selection-end-column="46" />
+          <folding>
+            <element signature="n#!!block;n#MirrorBoard#0" expanded="false" />
+            <element signature="n#!!block;n#IsCheck#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kacce/kacce.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#playGame#0" expanded="false" />
+            <element signature="n#!!block;n#playEvalTestGame#0" expanded="false" />
+            <element signature="n#!!block;n#viewHistory#0" expanded="false" />
+            <element signature="n#!!block;n#quit#0" expanded="false" />
+            <element signature="n#!!block;n#saveGame#0" expanded="false" />
+            <element signature="n#!!block;n#openSavedGame#0" expanded="false" />
+            <element signature="n#!!block;n#startNewGame#0" expanded="false" />
+            <element signature="n#!!block;n#humanVsHuman#0" expanded="false" />
+            <element signature="n#!!block;n#testElo#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Acknowledgments">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="450">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kacce/kacce.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="162">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!block;n#playGame#0" expanded="false" />
+            <element signature="n#!!block;n#playEvalTestGame#0" expanded="false" />
+            <element signature="n#!!block;n#viewHistory#0" expanded="false" />
+            <element signature="n#!!block;n#quit#0" expanded="false" />
+            <element signature="n#!!block;n#saveGame#0" expanded="false" />
+            <element signature="n#!!block;n#openSavedGame#0" expanded="false" />
+            <element signature="n#!!block;n#startNewGame#0" expanded="false" />
+            <element signature="n#!!block;n#humanVsHuman#0" expanded="false" />
+            <element signature="n#!!block;n#testElo#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kacce/kacce.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="162">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#playGame#0" expanded="false" />
+            <element signature="n#!!block;n#playEvalTestGame#0" expanded="false" />
+            <element signature="n#!!block;n#viewHistory#0" expanded="false" />
+            <element signature="n#!!block;n#quit#0" expanded="false" />
+            <element signature="n#!!block;n#saveGame#0" expanded="false" />
+            <element signature="n#!!block;n#openSavedGame#0" expanded="false" />
+            <element signature="n#!!block;n#startNewGame#0" expanded="false" />
+            <element signature="n#!!block;n#humanVsHuman#0" expanded="false" />
+            <element signature="n#!!block;n#testElo#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kacce/kacce.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="162">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#playGame#0" expanded="false" />
+            <element signature="n#!!block;n#playEvalTestGame#0" expanded="false" />
+            <element signature="n#!!block;n#viewHistory#0" expanded="false" />
+            <element signature="n#!!block;n#quit#0" expanded="false" />
+            <element signature="n#!!block;n#saveGame#0" expanded="false" />
+            <element signature="n#!!block;n#openSavedGame#0" expanded="false" />
+            <element signature="n#!!block;n#startNewGame#0" expanded="false" />
+            <element signature="n#!!block;n#humanVsHuman#0" expanded="false" />
+            <element signature="n#!!block;n#testElo#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/github.com/tux21b/ChessBuddy/chess/ai.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.77697843" vertical-offset="324" max-vertical-offset="1458">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Acknowledgments">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67525774" vertical-offset="62" max-vertical-offset="450">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/malbrecht/chess/pgn/pgn.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.408585" vertical-offset="3007" max-vertical-offset="3636">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/malbrecht/chess/pgn/parse.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.017323" vertical-offset="3186" max-vertical-offset="4752">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/malbrecht/chess/engine/engine.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1296" max-vertical-offset="2322">
+          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/malbrecht/chess/engine/uci/uci.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2866" max-vertical-offset="12672">
+          <caret line="121" column="16" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/malbrecht/chess/hash.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.640945" vertical-offset="0" max-vertical-offset="4734">
+          <caret line="199" column="63" selection-start-line="199" selection-start-column="63" selection-end-line="199" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/github.com/tux21b/ChessBuddy/chess/board.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1543307" vertical-offset="11119" max-vertical-offset="11754">
+          <caret line="577" column="37" selection-start-line="577" selection-start-column="37" selection-end-line="577" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/malbrecht/chess/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11338583" vertical-offset="0" max-vertical-offset="635">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kacce.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="635">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="635">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/malbrecht/chess/moveTables.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.7524116" vertical-offset="11834" max-vertical-offset="13374">
+          <caret line="718" column="0" selection-start-line="718" selection-start-column="0" selection-end-line="718" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/malbrecht/chess/move.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4698">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/malbrecht/chess/movegen.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="6300">
+          <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/malbrecht/chess/board.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10818">
+          <caret line="581" column="27" selection-start-line="581" selection-start-column="27" selection-end-line="581" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!block;n#MirrorBoard#0" expanded="false" />
+            <element signature="n#!!block;n#IsCheck#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kacce/kacce.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2124">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!block;n#playGame#0" expanded="false" />
+            <element signature="n#!!block;n#playEvalTestGame#0" expanded="false" />
+            <element signature="n#!!block;n#viewHistory#0" expanded="false" />
+            <element signature="n#!!block;n#quit#0" expanded="false" />
+            <element signature="n#!!block;n#saveGame#0" expanded="false" />
+            <element signature="n#!!block;n#openSavedGame#0" expanded="false" />
+            <element signature="n#!!block;n#startNewGame#0" expanded="false" />
+            <element signature="n#!!block;n#humanVsHuman#0" expanded="false" />
+            <element signature="n#!!block;n#testElo#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eval/eval.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!block;n#ScoreTable#0" expanded="false" />
+            <element signature="n#!!block;n#MirrorScoreTable#0" expanded="false" />
+            <element signature="n#!!block;n#Material#0" expanded="false" />
+            <element signature="e#3263#3331#0" expanded="false" />
+            <element signature="e#3355#3519#0" expanded="false" />
+            <element signature="e#3556#3732#0" expanded="false" />
+            <element signature="n#!!block;n#EvalTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ai/ai.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="2502">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!block;n#minimax#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/elo/eloEstimate.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!block;n#EstimateElo#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eval/resources.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08503937" vertical-offset="0" max-vertical-offset="2700">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>Go SDK go1.4 linux/amd64</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>kacce</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
